@@ -692,8 +692,6 @@ if st.button("Predict"):
     prob = model.predict_proba(X_input)[0, 1]
     st.write(f"Estimated approval probability: **{prob:.2%}**")
 
-!pip install streamlit
-
 """**Question:**
 Which model do you recommend and why? (Provide both technical and business reasoning.)
 
